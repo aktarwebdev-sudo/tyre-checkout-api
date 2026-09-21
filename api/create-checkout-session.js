@@ -52,7 +52,7 @@ module.exports = async (req, res) => {
             product_data: {
               name: 'Professional Fitting',
             },
-            unit_amount: 2500,
+            unit_amount: 0000,
           },
           quantity: 1,
         },
