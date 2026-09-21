@@ -64,7 +64,7 @@ module.exports = async (req, res) => {
         tyre: tyreName,
         quantity: String(quantity),
       },
-      success_url: 'https://yourwebsite.com/success?session_id={CHECKOUT_SESSION_ID}',
+      success_url: 'https://darkturquoise-badger-builder-8sgp6ab2atwbcgvu.hostingersite.com/success?session_id={CHECKOUT_SESSION_ID}',
       cancel_url: 'https://yourwebsite.com/cancel',
     });
 
