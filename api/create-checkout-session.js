@@ -65,7 +65,7 @@ module.exports = async (req, res) => {
         quantity: String(quantity),
       },
       success_url: 'https://darkturquoise-badger-builder-8sgp6ab2atwbcgvu.hostingersite.com/success?session_id={CHECKOUT_SESSION_ID}',
-      cancel_url: 'https://yourwebsite.com/cancel',
+      cancel_url: 'https://darkturquoise-badger-builder-8sgp6ab2atwbcgvu.hostingersite.com/cancel',
     });
 
     res.status(200).json({ url: session.url });
